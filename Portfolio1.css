@@ -18,9 +18,7 @@
   width: 100vw;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  /* flex-wrap: wrap; */
-  
+  justify-content: space-around;  
   background-color: lightblue;
   box-shadow: 10px 5px 8px 0px #ffffff;
   z-index: 4;
@@ -49,14 +47,72 @@
   cursor: pointer;
  }
  .header .div1{
+  /* height: 100%; */
+  width: 100%;
   position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: 23px;
-  /* font-size: 32px; */
+  top: 50px;
+  left: 0;
+  /* border: 2px solid red; */
  }
+ .div1 p{
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 300;
+ }
+ .object{
+  text-align: center;
+  padding: 30px 0px 20px 0px;
+  /* border: 2px solid red; */
+ }
+ .object h1{
+  color: #ffffff;
+  font-size: 30px;
+  margin-bottom: 20px;
+ }
+ .resume{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px 0px 20px 0px;
+  /* border: 2px solid red; */
+ }
+ .resume h2{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 25px;
+ }
+ .resume h3{
+  margin-top: 15px;
+  color: #dddddd;
+  font-size: 22px;
+  font-weight: 400;
+ }
+ 
+ .experience{
+  transform: translateX(-200%);
+  animation: experience 0.9s ease-in forwards;
+  padding: 10px;
+  /* border: 2px solid red; */
+ }
+.education{
+  transform: translateX(290%);
+  animation: education 0.9s ease-in forwards;
+  padding: 10px;
+  text-align: center;
+  /* border: 2px solid red; */
+}
+@keyframes experience{
+  100%{
+    transform: translateX(0);
+  }
+}
+  @keyframes education{
+    100%{
+      transform: translateX(0);
+    }
+  
+}
 
  /* ......................page 2................... */
 
@@ -76,12 +132,12 @@
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
-  padding: 55px 10px 10px 10px;
+  padding: 55px 10px 160px 10px;
   /* border: 2px solid red; */
  }
  .section-container .sec .sec_content1 h3{
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   color: white;
  }
  .section-container .sec .sec_content2 .image{
@@ -94,6 +150,7 @@
  }
  .section-container .sec .peragrabh p{
   font-size: 20px;
+  margin-top: 10px;
   /* border: 2px solid red; */
   color: white;
  }
@@ -164,6 +221,12 @@
 .progress-line .javascript {
   width: 50%;
 }
+.progress-line .github {
+  width: 70%;
+}
+.progress-line .core-java {
+  width: 50%;
+}
 .skills-bar .progress-line span::before {
   position: absolute;
   content: "";
@@ -197,6 +260,12 @@
   content: "70%";
 }
 .progress-line .javascript::after {
+  content: "50%";
+}
+.progress-line .github::after {
+  content: "70%";
+}
+.progress-line .core-java::after {
   content: "50%";
 }
 
