@@ -63,12 +63,10 @@ html, body{
   color: #ffffff;
   font-size: 20px;
   font-weight: 300;
-  text-align: justify;
-  text-justify: auto;
  }
  .object{
   text-align: center;
-  padding: 60px 0px 20px 0px;
+  padding: 60px 10px 20px 10px;
   background-color: yellow;
   /* border: 2px solid red; */
  }
@@ -99,8 +97,12 @@ html, body{
   font-size: 22px;
   font-weight: 400;
  }
- 
+ .experience p{
+  text-align: justify;
+  text-justify: auto;
+ } 
  .experience{
+  width: 500px;
   transform: translateX(-200%);
   animation: experience 0.9s ease-in forwards;
   padding: 10px;
@@ -108,9 +110,10 @@ html, body{
   /* border: 2px solid red; */
  }
 .education{
+  width: 500px;
   transform: translateX(290%);
   animation: education 0.9s ease-in forwards;
-  padding: 10px 130px 10px 110px;
+  padding: 10px 0px 10px 0px;
   text-align: center;
   background-color: navy;
   /* border: 2px solid red; */
@@ -141,6 +144,7 @@ html, body{
   /* border: 2px solid red; */
  }
  .section .section-container .sec{
+  width: 500px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -183,6 +187,7 @@ html, body{
   color: rgb(106, 147, 17);
  }
  .section .section-container .skills{
+  width: 500px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -237,7 +242,7 @@ html, body{
   width: 50%;
 }
 .progress-line .github {
-  width: 70%;
+  width: 60%;
 }
 .progress-line .core-java {
   width: 50%;
@@ -278,7 +283,7 @@ html, body{
   content: "50%";
 }
 .progress-line .github::after {
-  content: "70%";
+  content: "60%";
 }
 .progress-line .core-java::after {
   content: "50%";
@@ -384,11 +389,12 @@ html, body{
   background-color: #07374a;
 }
 .personal{
+  width: 500px;
   /* border: 2px solid red; */
   color: #ffffff;
   line-height: 40px;
   font-size: 20px;
-  padding: 10px;
+  padding: 20px;
   background-color: green;
 }
 .personal h1{
@@ -397,9 +403,10 @@ html, body{
   margin-bottom: 15px;
 }
 .footer .contact{
+  width: 500px;
   line-height: 40px;
   text-align: center;
-  padding: 10px 80px 145px 70px;
+  padding: 10px 0px 205px 0px;
   background-color: navy;
   /* border: 2px solid red; */
 }
