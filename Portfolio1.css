@@ -198,6 +198,7 @@ html, body{
  .section-container .skills .skills-content1 h3{
   font-size: 30px; 
   color: white;
+  margin-bottom: 80px;
  }
  .skills-bar .info{
   margin-top: 54.5px;
@@ -244,9 +245,6 @@ html, body{
 .progress-line .github {
   width: 60%;
 }
-.progress-line .core-java {
-  width: 50%;
-}
 .skills-bar .progress-line span::before {
   position: absolute;
   content: "";
@@ -285,9 +283,7 @@ html, body{
 .progress-line .github::after {
   content: "60%";
 }
-.progress-line .core-java::after {
-  content: "50%";
-}
+
 
 /* ....................page 3........................ */
 .portfolio{
