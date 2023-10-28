@@ -169,6 +169,7 @@ html, body{
   font-size: 20px;
   margin-top: 40px;
   /* border: 2px solid red; */
+  /* margin: 0 !important; */
   text-align: justify;
   text-justify: auto;
   color: white;
@@ -198,7 +199,7 @@ html, body{
  .section-container .skills .skills-content1 h3{
   font-size: 30px; 
   color: white;
-  margin-bottom: 80px;
+  margin-bottom: 160px;
  }
  .skills-bar .info{
   margin-top: 54.5px;
